@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_browista_landing_browista_landing_countries",
+  "info": {
+    "displayName": "Browista Landing Countries"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    }
+  }
+}

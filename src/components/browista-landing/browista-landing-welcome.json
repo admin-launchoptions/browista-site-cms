@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_browista_landing_browista_landing_welcomes",
+  "info": {
+    "displayName": "Browista Landing Welcome",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "browista-landing.browista-landing-welcome-card"
+    }
+  }
+}

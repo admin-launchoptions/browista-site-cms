@@ -1,0 +1,57 @@
+{
+  "collectionName": "components_shared_seo_metas",
+  "info": {
+    "displayName": "SEO Meta",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "canonical": {
+      "type": "string"
+    },
+    "robots": {
+      "type": "string",
+      "default": "index, follow"
+    },
+    "ogTitle": {
+      "type": "string",
+      "required": true
+    },
+    "ogDescription": {
+      "type": "text",
+      "required": true
+    },
+    "twitterTitle": {
+      "type": "string",
+      "required": true
+    },
+    "twitterDescription": {
+      "type": "text",
+      "required": true
+    },
+    "jsonLD": {
+      "type": "json"
+    },
+    "keywords": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "files",
+        "images"
+      ]
+    }
+  }
+}

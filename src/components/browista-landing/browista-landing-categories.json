@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_browista_landing_browista_landing_categories",
+  "info": {
+    "displayName": "Browista Landing Categories"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    }
+  }
+}

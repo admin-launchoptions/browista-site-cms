@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_browista_landing_browista_landing_images",
+  "info": {
+    "displayName": "Browista Landing Gallery",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

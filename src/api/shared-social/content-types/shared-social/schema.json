@@ -1,0 +1,62 @@
+{
+  "kind": "singleType",
+  "collectionName": "shared_socials",
+  "info": {
+    "singularName": "shared-social",
+    "pluralName": "shared-socials",
+    "displayName": "Shared Social",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fullName": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "secondaryPhone": {
+      "type": "string"
+    },
+    "cc": {
+      "type": "string"
+    },
+    "vat": {
+      "type": "string"
+    },
+    "bank": {
+      "type": "string"
+    },
+    "bic": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "whatsapp": {
+      "type": "string"
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "avatar": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

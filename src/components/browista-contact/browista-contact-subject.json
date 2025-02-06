@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_browista_contact_browista_contact_subjects",
+  "info": {
+    "displayName": "Browista Contact Subject"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  }
+}

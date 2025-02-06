@@ -1,0 +1,116 @@
+{
+  "kind": "singleType",
+  "collectionName": "browista_landing_pages",
+  "info": {
+    "singularName": "browista-landing-page",
+    "pluralName": "browista-landing-pages",
+    "displayName": "Browista Landing Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "start": {
+      "type": "component",
+      "repeatable": false,
+      "component": "browista-landing.browista-landing-start",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "welcome": {
+      "type": "component",
+      "repeatable": false,
+      "component": "browista-landing.browista-landing-welcome",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "categories": {
+      "type": "component",
+      "repeatable": false,
+      "component": "browista-landing.browista-landing-categories",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "procedure": {
+      "type": "component",
+      "repeatable": false,
+      "component": "browista-landing.browista-landing-procedure",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "venue": {
+      "type": "component",
+      "repeatable": false,
+      "component": "browista-landing.browista-landing-venue",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "countries": {
+      "type": "component",
+      "repeatable": false,
+      "component": "browista-landing.browista-landing-countries",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "galleryImages": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo-meta"
+    }
+  }
+}

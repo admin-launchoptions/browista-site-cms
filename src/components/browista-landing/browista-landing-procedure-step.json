@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_browista_landing_browista_landing_procedure_steps",
+  "info": {
+    "displayName": "Browista Landing Procedure Step"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

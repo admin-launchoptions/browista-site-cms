@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_browista_landing_browista_landing_welcome_cards",
+  "info": {
+    "displayName": "Browista Landing Welcome Card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "richtext"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_browista_landing_browista_landing_venues",
+  "info": {
+    "displayName": "Browista Landing Venue"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "locationName": {
+      "type": "string"
+    },
+    "locationAddress": {
+      "type": "string"
+    },
+    "locationLink": {
+      "type": "string"
+    }
+  }
+}

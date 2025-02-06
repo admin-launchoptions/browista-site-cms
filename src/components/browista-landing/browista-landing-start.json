@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_browista_landing_browista_landing_starts",
+  "info": {
+    "displayName": "Browista Landing Start",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "string"
+    },
+    "registerButtonLabel": {
+      "type": "string"
+    },
+    "platformButtonLabel": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "platformButtonLink": {
+      "type": "string"
+    }
+  }
+}
