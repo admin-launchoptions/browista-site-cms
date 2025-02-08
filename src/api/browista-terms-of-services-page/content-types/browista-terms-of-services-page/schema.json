@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "browista_terms_of_services_pages",
+  "info": {
+    "singularName": "browista-terms-of-services-page",
+    "pluralName": "browista-terms-of-services-pages",
+    "displayName": "Browista Terms Of Services Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "withdrawalDateLabel": {
+      "type": "string"
+    },
+    "festivalRefundLabel": {
+      "type": "string"
+    },
+    "championshipRefundLabel": {
+      "type": "string"
+    },
+    "data": {
+      "type": "customField",
+      "options": {
+        "preset": "defaultHtml"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}
