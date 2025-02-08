@@ -431,6 +431,12 @@ export interface ApiBrowistaContactPageBrowistaContactPage
           localized: true;
         };
       }>;
+    privacyPolicyCheckboxLabel: Schema.Attribute.String &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     privacyPolicyLabel: Schema.Attribute.String &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
@@ -708,6 +714,47 @@ export interface ApiBrowistaPreRegistrationPageBrowistaPreRegistrationPage
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+  };
+}
+
+export interface ApiBrowistaTermsOfServicesPageBrowistaTermsOfServicesPage
+  extends Struct.SingleTypeSchema {
+  collectionName: 'browista_terms_of_services_pages';
+  info: {
+    description: '';
+    displayName: 'Browista Terms Of Services Page';
+    pluralName: 'browista-terms-of-services-pages';
+    singularName: 'browista-terms-of-services-page';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    championshipRefundLabel: Schema.Attribute.String;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    data: Schema.Attribute.RichText &
+      Schema.Attribute.CustomField<
+        'plugin::ckeditor5.CKEditor',
+        {
+          preset: 'defaultHtml';
+        }
+      >;
+    festivalRefundLabel: Schema.Attribute.String;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::browista-terms-of-services-page.browista-terms-of-services-page'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    withdrawalDateLabel: Schema.Attribute.String;
   };
 }
 
@@ -1562,6 +1609,7 @@ declare module '@strapi/strapi' {
       'api::browista-contact-page.browista-contact-page': ApiBrowistaContactPageBrowistaContactPage;
       'api::browista-landing-page.browista-landing-page': ApiBrowistaLandingPageBrowistaLandingPage;
       'api::browista-pre-registration-page.browista-pre-registration-page': ApiBrowistaPreRegistrationPageBrowistaPreRegistrationPage;
+      'api::browista-terms-of-services-page.browista-terms-of-services-page': ApiBrowistaTermsOfServicesPageBrowistaTermsOfServicesPage;
       'api::category.category': ApiCategoryCategory;
       'api::contact.contact': ApiContactContact;
       'api::country.country': ApiCountryCountry;

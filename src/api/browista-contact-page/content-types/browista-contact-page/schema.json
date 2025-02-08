@@ -136,6 +136,14 @@
         }
       },
       "component": "shared.seo-meta"
+    },
+    "privacyPolicyCheckboxLabel": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }
